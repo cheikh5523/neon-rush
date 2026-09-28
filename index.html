@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Neon Rush - My First Game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HOME SCREEN -->
+
+    <main id="homeScreen" class="screen home-screen">
+
+        <div class="stars"></div>
+
+        <div class="home-content">
+
+            <p class="first-game">
+                MY FIRST GAME
+            </p>
+
+            <h1>
+                NEON
+                <span>RUSH</span>
+            </h1>
+
+            <p class="creator">
+                Built while learning programming 🚀
+            </p>
+
+            <button id="playButton" class="play-button">
+                ▶ PLAY
+            </button>
+
+            <div class="best-home">
+                <span>BEST SCORE</span>
+                <strong id="homeBestScore">0000</strong>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- GAME SCREEN -->
+
+    <main id="gameScreen" class="screen game-screen">
+
+        <header class="game-header">
+
+            <div class="stat">
+                <small>SCORE</small>
+                <strong id="score">0000</strong>
+            </div>
+
+            <div class="stat">
+                <small>BEST</small>
+                <strong id="bestScore">0000</strong>
+            </div>
+
+            <div class="stat">
+                <small>❤️</small>
+                <strong id="lives">3</strong>
+            </div>
+
+        </header>
+
+
+        <section id="gameArea" class="game-area">
+
+            <div class="player" id="player">
+                🚀
+            </div>
+
+        </section>
+
+
+        <div class="controls">
+
+            <button id="leftButton">
+                ◀
+            </button>
+
+            <button id="rightButton">
+                ▶
+            </button>
+
+        </div>
+
+        <p class="keyboard-hint">
+            ← → OR TOUCH TO MOVE
+        </p>
+
+    </main>
+
+
+    <!-- GAME OVER -->
+
+    <div id="gameOver" class="game-over">
+
+        <div class="game-over-box">
+
+            <p>GAME OVER</p>
+
+            <h2 id="finalScore">
+                0000
+            </h2>
+
+            <span>
+                YOUR SCORE
+            </span>
+
+            <button id="restartButton">
+                🔄 PLAY AGAIN
+            </button>
+
+            <button id="menuButton">
+                🏠 MAIN MENU
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
